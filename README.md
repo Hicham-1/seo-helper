@@ -38,7 +38,7 @@ To apply the middleware globally to all routes, add it to the `$middleware` arra
 protected $middleware = [
     // Other middleware...
 
-    \H1ch4m\SeoHelper\Middleware\SeoMiddleware::class,
+    \H1ch4m\SeoHelper\Http\Middleware\SeoMiddleware::class,
 ];
 ```
 
@@ -50,7 +50,7 @@ To apply the middleware to specific routes or route groups, add it to the `$rout
 protected $routeMiddleware = [
     // Other middleware...
 
-    'seo-helper' => \H1ch4m\SeoHelper\Middleware\SeoMiddleware::class,
+    'seo-helper' => \H1ch4m\SeoHelper\Http\Middleware\SeoMiddleware::class,
 ];
 ```
 
