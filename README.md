@@ -113,7 +113,6 @@ public function someMethod()
 }
 
 ```
-
 Note:
 
 - if you want to apply it on one route just add it on `route` column, if you want to apply it on more than one route use `|` between routes, if you want to apply it on all routes just insert `*`
