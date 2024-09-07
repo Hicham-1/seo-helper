@@ -1,0 +1,15 @@
+{
+    "name": "h1ch4m/seo-helper",
+    "description": "seo helper",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seo\\SeoHelper\\": "src/"
+        }
+    }
+}
