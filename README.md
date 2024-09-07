@@ -118,9 +118,12 @@ Note:
 <br>
 if you want to apply it on one route just add it on `route` column, if you want to apply it on more than one route use `|` between routes, if you want to apply it on all routes just insert `*`
 <br>
+<br>
 The name can be `name` or `property` or any mate name you want
 <br>
+<br>
 The value is the meta name value
+<br>
 <br>
 The content is the meta content
 
