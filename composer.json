@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Seo\\SeoHelper\\": "src/"
+            "H1ch4m\\SeoHelper\\": "src/"
         }
     }
 }

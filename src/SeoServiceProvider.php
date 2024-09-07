@@ -1,9 +1,9 @@
 <?php
 
-namespace Seo\SeoHelper;
+namespace H1ch4m\SeoHelper;
 
 use Illuminate\Support\ServiceProvider;
-use Seo\SeoHelper\Http\Middleware\SeoMiddleware;
+use H1ch4m\SeoHelper\Http\Middleware\SeoMiddleware;
 
 class SeoServiceProvider extends ServiceProvider
 {

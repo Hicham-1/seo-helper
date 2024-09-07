@@ -1,12 +1,12 @@
 <?php
 
-namespace Seo\SeoHelper\Http\Middleware;
+namespace H1ch4m\SeoHelper\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
-use Seo\SeoHelper\Models\SeoHelper;
+use H1ch4m\SeoHelper\Models\SeoHelper;
 use Symfony\Component\HttpFoundation\Response;
 
 class SeoMiddleware
