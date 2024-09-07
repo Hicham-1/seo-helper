@@ -71,6 +71,14 @@ php artisan vendor:publish --provider="H1ch4m\SeoHelper\SeoServiceProvider"
 ```
 This will publish the configuration file to `config/seo-helper.php`, where you can adjust the settings as needed.
 
+## Migration
+
+run migration to create table `seo-helper`
+
+```bash
+php artisan migrate
+```
+
 ## Usage
 
 ### Adding SEO Metadata
