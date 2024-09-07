@@ -86,11 +86,11 @@ php artisan migrate
 You can use the package's API to set SEO metadata for your application. Here's an example of how to use it in a controller:
 
 ```php
-use H1ch4m\SeoHelper\Facades\SeoHelper;
+use H1ch4m\SeoHelper\Models\SeoHelper;
 
 public function someMethod()
 {
-    DB::table('seo_helpers')->insert([
+    SeoHelper::insert([
         [
             'name' => 'name',
             'value' => 'author',

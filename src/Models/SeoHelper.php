@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class SeoHelper extends Model
 {
     use HasFactory;
+
+    protected $table = 'seo_helpers';
 }
